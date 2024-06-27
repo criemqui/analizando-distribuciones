@@ -1,20 +1,19 @@
 # analizando-distribuciones
 
-Implementa el código para realizar los siguientes gráficos en un notebook de jupyter, y súbelo aquí.
+Una vez tenemos los datos exportados por nuestro script de ETL, podemos proceder a realizar gráficas de análisis. En esta etapa del proyecto usa matplotlib para:
 
-1. Cargar el dataset: Lee el dataset de notas de estudiantes en Python y almacénalo en una estructura de datos adecuada, como un DataFrame de Pandas.
-2. Graficar la distribución de notas con un boxplot: Utiliza Plotly para crear un boxplot que muestre la distribución de notas de los estudiantes. Asegúrate de ajustar los ejes, agregar un título y etiquetas apropiadas para el gráfico.
+1. Graficar la distribución de edades con un histograma
+
+    ![Texto alternativo](https://github.com/criemqui/analizando-distribuciones/blob/main/Figure_2.png)
+
+   
+3. Graficar histogramas agrupado por hombre y mujer:
+   - cantidad de anémicos
+   - cantidad de diabéticos
+   - cantidad de fumadores
+   - cantidad de muertos
 
    La gráfica debe verse así:
 
 
-   ![Texto alternativo](https://github.com/criemqui/Graf-3/blob/main/graf%201.png)
-
-
-   3. Graficar la distribución de aprobados con un pie chart: Utiliza Matplotlib para crear un pie chart que muestre la proporción de estudiantes aprobados y no aprobados en el dataset.
-
-   La gráfica debe verse así:
-
-
-
-  ![Texto alternativo](https://github.com/criemqui/Graf-3/blob/main/tortas.png)
+   ![Texto alternativo](https://github.com/criemqui/analizando-distribuciones/blob/main/Figure_1.png)
